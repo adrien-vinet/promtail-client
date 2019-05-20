@@ -31,6 +31,7 @@ type ClientConfig struct {
 	SendLevel LogLevel
 	// Logs are printed to stdout if the entry level is >= PrintLevel
 	PrintLevel LogLevel
+	Datetime	time.Time
 }
 
 type Client interface {
